@@ -71,7 +71,8 @@ Conclusion:
 This Penetration Testing Toolkit introduces basic but critical cybersecurity techniques that professionals use daily. It demonstrates that even seemingly simple tools can expose significant security weaknesses when applied intelligently.
 
 # OUTPUT
-
+![Image](https://github.com/user-attachments/assets/54ed8e45-7d87-4c27-983a-67dc2d1cb6d4)
+![Image](https://github.com/user-attachments/assets/49d9d34a-23f3-41bc-a644-aa4462f826ce)
 
 ## ⚙️ How to run
 
