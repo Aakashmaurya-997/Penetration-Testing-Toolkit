@@ -102,12 +102,6 @@ It demonstrates that even seemingly simple tools can expose significant security
 
 *(Only built-in libraries used for this project. No need to install external libraries.)*
 
-*If needed:*
-
-```bash
-pip install requests beautifulsoup4 cryptography
-```
-
 ### Step 2: Run the Script
 
 ```bash
