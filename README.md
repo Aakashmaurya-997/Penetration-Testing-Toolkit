@@ -1,89 +1,119 @@
-# Penetration-Testing-Toolkit
+# 📂 Penetration-Testing-Toolkit
 
-*COMPANY*: CODTECH IT SOLUTIONS PVT. LTD
+---
 
-*NAME*: AAKASH JAYDEV MAURYA
+**🏢 COMPANY**: CODTECH IT SOLUTIONS PVT. LTD
 
-*INTERN ID*: CT04WS67
+**👤 NAME**: AAKASH JAYDEV MAURYA
 
-*DOMAIN*: CYBER SECURITY & ETHICAL HACKING 
+**🆔 INTERN ID**: CT04WS67
 
-*DURATION*: 4 WEEKS
+**🌐 DOMAIN**: CYBER SECURITY & ETHICAL HACKING
 
-*MENTOR*: NEELA SANTOSH KUMAR
+**🕓 DURATION**: 4 WEEKS
 
-## DESCRIPTION OF THE TASK
+**👨‍🏫 MENTOR**: NEELA SANTOSH KUMAR
 
-Introduction:
-Penetration testing tools help cybersecurity professionals identify vulnerabilities in systems before real hackers can exploit them. As part of this internship task, a Penetration Testing Toolkit was created in Python containing two modules:
+---
 
-Port Scanner
+## 📜 DESCRIPTION OF THE TASK
 
-Password Brute Forcer
+---
 
-Both modules are fundamental in preliminary information gathering (reconnaissance) phases of ethical hacking.
+### 🔹 Introduction
 
-Working Principle:
+Penetration testing tools help cybersecurity professionals identify vulnerabilities in systems before real hackers can exploit them.  
+As part of this internship task, a **Penetration Testing Toolkit** was created in **Python** containing two modules:
 
-Port Scanner:
-Scans a target IP address across a range of ports to identify which ports are open. Open ports can reveal services running and possible attack surfaces.
+- **Port Scanner**
+- **Password Brute Forcer**
 
-Password Brute Forcer:
-Attempts multiple passwords on a dummy login system, simulating how brute-force attacks work.
+Both modules are fundamental in the preliminary information gathering (reconnaissance) phases of ethical hacking.
 
-Key Features:
+---
 
-Fast Socket-Based Port Scanning:
-Efficiently checks 1000+ ports in seconds.
+### 🔹 Working Principle
 
-Demo Brute-Force Module:
-Tests a predefined list of common passwords.
+- **Port Scanner**:  
+  Scans a target IP address across a range of ports to identify which ports are open. Open ports can reveal services running and possible attack surfaces.
 
-CLI Based Modular Structure:
-The toolkit offers an interactive command-line menu to select the module.
+- **Password Brute Forcer**:  
+  Attempts multiple passwords on a dummy login system, simulating how brute-force attacks work.
 
-Importance:
-Port scanning is the first step in any real-world cyber attack. Knowing which ports are open can reveal everything about an organization’s defenses. Similarly, brute-forcing remains a basic but effective way to breach accounts if users select weak passwords.
+---
 
-Use Cases:
+### 🔹 Key Features
 
-Scanning personal devices to ensure no unnecessary open ports exist.
+- **Fast Socket-Based Port Scanning**: Efficiently checks 1000+ ports in seconds.
+- **Demo Brute-Force Module**: Tests a predefined list of common passwords.
+- **CLI Based Modular Structure**: The toolkit offers an interactive command-line menu to select the module.
 
-Educating about the dangers of using simple or common passwords.
+---
 
-Training exercises in ethical hacking courses.
+### 🔹 Importance
 
-Technologies Used:
+Port scanning is the first step in any real-world cyber attack. Knowing which ports are open can reveal everything about an organization’s defenses.  
+Similarly, brute-forcing remains a basic but effective way to breach accounts if users select weak passwords.
 
-Python
+---
 
-Socket Programming
+### 🔹 Use Cases
 
-Future Enhancements:
+- Scanning personal devices to ensure no unnecessary open ports exist.
+- Educating about the dangers of using simple or common passwords.
+- Training exercises in ethical hacking courses.
 
-Add multi-threading to speed up scanning.
+---
 
-Support UDP port scanning.
+### 🔹 Technologies Used
 
-Implement dictionary attacks using external password lists.
+- Python
+- Socket Programming
 
-Conclusion:
-This Penetration Testing Toolkit introduces basic but critical cybersecurity techniques that professionals use daily. It demonstrates that even seemingly simple tools can expose significant security weaknesses when applied intelligently.
+---
 
-# OUTPUT
-![Image](https://github.com/user-attachments/assets/54ed8e45-7d87-4c27-983a-67dc2d1cb6d4)
-![Image](https://github.com/user-attachments/assets/49d9d34a-23f3-41bc-a644-aa4462f826ce)
+### 🔹 Future Enhancements
 
-## ⚙️ How to run
+- Add multi-threading to speed up scanning.
+- Support UDP port scanning.
+- Implement dictionary attacks using external password lists.
 
-Install required libraries:
+---
+
+### 🔹 Conclusion
+
+This **Penetration Testing Toolkit** introduces basic but critical cybersecurity techniques that professionals use daily.  
+It demonstrates that even seemingly simple tools can expose significant security weaknesses when applied intelligently.
+
+---
+
+## 📷 OUTPUT
+
+![Image1](https://github.com/user-attachments/assets/54ed8e45-7d87-4c27-983a-67dc2d1cb6d4)  
+![Image2](https://github.com/user-attachments/assets/49d9d34a-23f3-41bc-a644-aa4462f826ce)
+
+---
+
+## ⚙️ How to Run
+
+---
+
+### Step 1: Install Required Libraries
+
+*(Only built-in libraries used for this project. No need to install external libraries.)*
+
+*If needed*
+
 ```bash
 pip install requests beautifulsoup4 cryptography
 ```
 
-Then, run each script using:
+### Step 2: Run the Script
+
 ```bash
-python script_name.py
+python penetration_toolkit.py
 ```
 
-Enjoy! 🚀
+---
+
+# 🚀 Happy Penetration Testing!
